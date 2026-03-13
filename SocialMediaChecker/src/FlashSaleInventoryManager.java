@@ -1,6 +1,6 @@
 import java.util.*;
 
-class FlashSaleInventory {
+class FlashSaleInventoryManager {
 
     HashMap<String, Integer> inventory = new HashMap<>();
     HashMap<String, Queue<Integer>> waitingList = new HashMap<>();
